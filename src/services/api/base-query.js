@@ -9,7 +9,7 @@ import {
 } from "../slices/user-slice";
 
 
-export const baseServerUrl =  "https://mososoup-api-1.onrender.com";
+export const baseServerUrl =  "https://groover-backend-code.onrender.com";
 
 // export const baseServerUrl = "http://127.0.0.1:8000"; // Changed for local testing
 
