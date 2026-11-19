@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 import { MdOutlineDashboard } from "react-icons/md";
 import { BiUser, BiCog, BiBookOpen } from "react-icons/bi";
-import { FaRegCalendarAlt, FaRegEye } from "react-icons/fa";
+import { FaRegCalendarAlt, FaRegEye, FaRegImages } from "react-icons/fa";
 import logoFull from "../../../assets/logo.svg";
 import { handleLogout } from "../../../helpers/handle-logout";
 
@@ -41,6 +41,11 @@ function SideBarWeb({ isCollapsed, closeSidebar = () => {} }) {
 				to: "/home/events",
 				label: "Events Management",
 				icon: FaRegCalendarAlt,
+			},
+			{
+				to: "/home/banners",
+				label: "Dashboard Banners",
+				icon: FaRegImages,
 			},
 			{ to: "/home/logs", label: "View Logs", icon: FaRegEye },
 			{ to: "/home/settings", label: "Settings Management", icon: BiCog },

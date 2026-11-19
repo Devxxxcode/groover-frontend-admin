@@ -13,6 +13,7 @@ export const bonuses = "bonuses";
 export const hold = "hold";
 export const packs = "packs";
 export const events = "events";
+export const banners = "banners";
 export const logs = "logs";
 export const settings = "settings";
 export const video = "video";

@@ -18,6 +18,12 @@ export const ENDPOINT = {
 	PUT_EVENT: "/site_admin/events/:id/",
 	DELETE_EVENT: "/site_admin/events/:id/",
 
+	// DASHBOARD BANNERS
+	GET_BANNERS: "/site_admin/dashboard-banners/",
+	POST_BANNERS: "/site_admin/dashboard-banners/",
+	PUT_BANNER: "/site_admin/dashboard-banners/:id/",
+	DELETE_BANNER: "/site_admin/dashboard-banners/:id/",
+
 	//SETTINGS
 	GET_SETTINGS: "/site_admin/settings/",
 	PATCH_SETTINGS: "/site_admin/settings/update-settings/",

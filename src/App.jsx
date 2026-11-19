@@ -12,6 +12,7 @@ import {
 	hold,
 	packs,
 	events,
+	banners,
 	logs,
 	settings,
 	video,
@@ -34,6 +35,7 @@ import Bonuses from "./pages/dashboard/Bonuses";
 import Hold from "./pages/dashboard/Hold";
 import Packs from "./pages/dashboard/Packs";
 import Events from "./pages/dashboard/Events";
+import Banners from "./pages/dashboard/Banners";
 import Logs from "./pages/dashboard/Logs";
 import Settings from "./pages/dashboard/Settings";
 import Video from "./pages/dashboard/Video";
@@ -87,6 +89,7 @@ function App() {
 							<Route path={hold} element={<Hold />} />
 							<Route path={packs} element={<Packs />} />
 							<Route path={events} element={<Events />} />
+							<Route path={banners} element={<Banners />} />
 							<Route path={logs} element={<Logs />} />
 							<Route path={settings} element={<Settings />} />
 							<Route path={video} element={<Video />} />
